@@ -22,6 +22,9 @@ class PostsController < ApplicationController
     @dss = nil
   end
 
+  def test
+
+  end
   # POST /posts
   # POST /posts.json
   def create
