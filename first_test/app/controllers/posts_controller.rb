@@ -5,6 +5,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   def index
     @posts = Post.all
+    @test = nil
   end
 
   # GET /posts/1
